@@ -1,0 +1,15 @@
+{
+    "name": "zharkov-denis/brain-games",
+    "bin": ["bin/brain-games"],
+    "description": "compilation of simple but fascinating text games",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Zharkov Denis",
+            "email": "zdu.ing@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
+    
