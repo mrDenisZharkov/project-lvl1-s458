@@ -2,6 +2,7 @@
     "name": "zharkov-denis/brain-games",
     "bin": ["bin/brain-games"],
     "description": "compilation of simple but fascinating text games",
+    "keywords": ["braingames", "hexlet", "project"],
     "type": "project",
     "authors": [
         {
