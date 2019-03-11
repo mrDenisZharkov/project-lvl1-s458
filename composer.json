@@ -9,9 +9,8 @@
             "email": "zdu.ing@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "wp-cli/php-cli-tools": "dev-master"
+        "wp-cli/php-cli-tools": ">= 0.11.0"
     },
     "autoload": {
         "files": [
