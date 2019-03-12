@@ -12,7 +12,6 @@
     ],
     "scripts": {
         "phpcs": "phpcs",
-        "phpcbf": "phpcbf"
     },
     "autoload": {
         "files": [
@@ -24,6 +23,5 @@
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.3.2",
-        "codeclimate/php-test-reporter": "^0.4.2"
     }
 }

@@ -2,11 +2,5 @@ language: php
 php:
   - '7.1'
 
-install:
-  - composer self-update
-  - make install
-
 script: make lint
 
-after_script:
-  - vendor/bin/test-reporter
