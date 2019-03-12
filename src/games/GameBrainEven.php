@@ -19,15 +19,16 @@ function giveQuestion()
     $correctAnswer = ($questionNum % 2 === 0) ? "yes" : "no";
     return $correctAnswer;
 }
+
 //Engine
-function initGame($gameName, $rules, &$username)
+function init($gameName, $rules, &$username)
 {
     line("Welcome to the {$gameName}!");
     line($rules);
     $username = prompt('May I have your name?');
     line("Hello, %s!", $username);
 }
-function playGame()
+function play()
 {
     for ($i = 0; $i < COUNT_GAME_LOOPS; $i++) {
         line("Question: ");
@@ -43,7 +44,7 @@ function playGame()
     }
     return true;
 }
-function showResults($winIndicator, $username)
+function summarize($winIndicator, $username)
 {
     if ($winIndicator) {
         line("Congratulations, %s!", $username);
@@ -54,7 +55,7 @@ function showResults($winIndicator, $username)
 function run()
 {
     $username = 'unknown';
-    initGame(GAME_NAME, RULES, $username);
-    $result = playGame();
-    showResults($result, $username);
+    init(GAME_NAME, RULES, $username);
+    $result = play();
+    summarize($result, $username);
 }
