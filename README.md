@@ -2,9 +2,15 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/17197ebb1fd1d104e064/maintainability)](https://codeclimate.com/github/mrDenisZharkov/project-lvl1-s458/maintainability)
 [![Build Status](https://travis-ci.org/mrDenisZharkov/project-lvl1-s458.svg?branch=master)](https://travis-ci.org/mrDenisZharkov/project-lvl1-s458)
 
-Simple but interesting online games. Please, enjoy it!
+Simple but exciting online games. Please, enjoy!
 
-## Guide to install and launch brain-games:
-[![asciicast](https://asciinema.org/a/mW0xrJHt6JtdPfrRMerqiJNq4.svg)](https://asciinema.org/a/mW0xrJHt6JtdPfrRMerqiJNq4)
-## Guide to install and launch even-game:
-[![asciicast](https://asciinema.org/a/MzBMU2b2C4L6zFcM4BaBjUpIH.svg)](https://asciinema.org/a/MzBMU2b2C4L6zFcM4BaBjUpIH)
+## Guide to install brain-games:
+[![asciicast](https://asciinema.org/a/92V3Khls3RHroqvYVf3qqNRCU.svg)](https://asciinema.org/a/92V3Khls3RHroqvYVf3qqNRCU)
+## Guide to launch game selection menu:
+[![asciicast](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR.svg)](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR)
+## Guide to launch Even game:
+[![asciicast](https://asciinema.org/a/lYoG6qgeROPtlylhWgKhHxj90.svg)](https://asciinema.org/a/lYoG6qgeROPtlylhWgKhHxj90)
+## Guide to launch Calc game:
+[![asciicast](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG.svg)](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG)
+## Guide to launch GCD game:
+[![asciicast](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK.svg)](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK)
