@@ -5,6 +5,7 @@ use function \cli\prompt;
 use function BrainGames\Games\Even\run as runEven;
 use function BrainGames\Games\Calc\run as runCalc;
 use function BrainGames\Games\GCD\run as runGCD;
+use function BrainGames\Games\Progression\run as runProgression;
 function runMenu()
 {
     line("Welcome to the Brain Games!");
@@ -12,6 +13,7 @@ function runMenu()
     line("1 - Brain Even Game");
     line("2 - Brain Calc Game");
     line("3 - Brain GSV Game");
+    line("4 - Brain GSV Game");
     line("any other - EXIT");
     $userAnswer = prompt("\nEnter number of game to run it: ");
     if ($userAnswer == 1) {
@@ -20,5 +22,7 @@ function runMenu()
         runCalc();
     } elseif ($userAnswer == 3) {
         runGCD();
+    } elseif ($userAnswer == 4) {
+        runProgression();
     }
 }
