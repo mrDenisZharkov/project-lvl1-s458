@@ -16,7 +16,7 @@ function run()
         $a = rand($minGen, $maxGen);
         $b = rand($minGen, $maxGen);
         $operationid = rand(1, 3);
-        if ($goperationid === 1) {
+        if ($operationid === 1) {
             $operand = '+';
             $correctAnswer = $a + $b;
         } elseif ($operationid === 2) {
