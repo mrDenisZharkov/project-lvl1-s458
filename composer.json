@@ -2,7 +2,9 @@
     "name": "zharkov-denis/brain-games",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "description": "compilation of simple but fascinating text games",
     "keywords": ["braingames", "hexlet", "project"],
@@ -19,8 +21,11 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/Games/BrainEven.php",
-            "src/Engine.php"
+            "src/Engine.php",
+            "src/Games/Even.php",
+            "src/Games/Calc.php",
+            "src/Games/GCD.php"
+            
          ]
     },
     "require": {

@@ -7,7 +7,7 @@ const COUNT_ROUNDS = 3;
 
 function play(string $title, string $rule, callable $question)
 {
-    line("\tWelcome to the {$title}!");
+    line("\n\t*Welcome to the {$title}!*");
     line("\n{$rule}");
     $username = prompt("\nMay I have your name?");
     line("\tHello, {$username}!");
@@ -20,9 +20,9 @@ function play(string $title, string $rule, callable $question)
             line("Correct!");
         } else {
             line("'{$playerAnswer}' is wrong answer. Correct answer was '{$correctAnswer}'.");
-            line("Let's try again, {$username}...");
+            line("Let's try again, {$username}...\n");
             return;
         }
     }
-    line("\n\tCongratulations, {$username}!");
+    line("\n\tCongratulations, {$username}!\n");
 }
