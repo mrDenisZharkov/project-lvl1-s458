@@ -1,12 +1,10 @@
 <?php
 namespace BrainGames\Games\Even;
 
-use function \cli\line;
-use function \cli\prompt;
 use function BrainGames\Engine\play;
 
 const TITLE = "Brain Even Game";
-const RULE = "Answer 'yes' if number even otherwise answer 'no'.";
+const DESCRIPTION = "Answer 'yes' if number even otherwise answer 'no'.";
 
 function isEven($number)
 {
@@ -14,11 +12,11 @@ function isEven($number)
 }
 function run()
 {
-    play(TITLE, RULE, function () {
+    play(TITLE, DESCRIPTION, function () {
         $minGen = 1;
         $maxGen = 100;
         $question = rand($minGen, $maxGen);
-        print_r($question);
-        return isEven($question) ? "yes" : "no";
+        $correctAnswer = isEven($question) ? "yes" : "no";
+        return [$correctAnswer, $question];
     });
 }

@@ -1,16 +1,14 @@
 <?php
 namespace BrainGames\Games\Calc;
 
-use function \cli\line;
-use function \cli\prompt;
 use function BrainGames\Engine\play;
 
 const TITLE = "Brain Calc Game";
-const RULE = "What is the result of the expression?";
+const DESCRIPTION = "What is the result of the expression?";
 
 function run()
 {
-    play(TITLE, RULE, function () {
+    play(TITLE, DESCRIPTION, function () {
         $minGen = 1;
         $maxGen = 100;
         $a = rand($minGen, $maxGen);
@@ -27,7 +25,6 @@ function run()
             $correctAnswer = $a * $b;
         }
         $question = ("{$a} {$operand} {$b}");
-        print_r($question);
-        return $correctAnswer;
+        return [$correctAnswer, $question];
     });
 }
