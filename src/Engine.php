@@ -22,8 +22,7 @@ function play(string $title, string $rule, callable $question)
             line("'{$playerAnswer}' is wrong answer. Correct answer was '{$correctAnswer}'.");
             line("Let's try again, {$username}...");
             return;
-	    }
+        }
     }
     line("\n\tCongratulations, {$username}!");
 }
-

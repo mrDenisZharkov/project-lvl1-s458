@@ -10,17 +10,15 @@ const RULE = "Answer 'yes' if number even otherwise answer 'no'.";
 
 function isEven($number)
 {
-	return ($number % 2 === 0) ? true : false;
+    return ($number % 2 === 0) ? true : false;
 }
 function run()
 {
     play(TITLE, RULE, function () {
-		$minGen = 1;
-	    $maxGen = 100;
+        $minGen = 1;
+        $maxGen = 100;
         $question = rand($minGen, $maxGen);
         print_r($question);
         return isEven($question) ? "yes" : "no";
-	});
+    });
 }
-
-

@@ -20,5 +20,5 @@ function run()
         gameCalc();
     } elseif ($answerUser == 3) {
         gameGSV();
-	}
+    }
 }
