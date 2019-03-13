@@ -5,7 +5,7 @@
 Simple but exciting online games. Please, enjoy!
 
 ## Guide to install brain-games:
-[![asciicast](https://asciinema.org/a/92V3Khls3RHroqvYVf3qqNRCU.svg)](https://asciinema.org/a/92V3Khls3RHroqvYVf3qqNRCU)
+[![asciicast](https://asciinema.org/a/4Qq5SXyvDxHkWtFSaY5cPw9WV.svg)](https://asciinema.org/a/4Qq5SXyvDxHkWtFSaY5cPw9WV)
 ## Guide to launch game selection menu:
 [![asciicast](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR.svg)](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR)
 ## Guide to launch Even game:
@@ -14,3 +14,5 @@ Simple but exciting online games. Please, enjoy!
 [![asciicast](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG.svg)](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG)
 ## Guide to launch GCD game:
 [![asciicast](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK.svg)](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK)
+## Guide to launch Progression game:
+[![asciicast](https://asciinema.org/a/95rrnrPVcfEwO29dUM8bt1hHD.svg)](https://asciinema.org/a/95rrnrPVcfEwO29dUM8bt1hHD)
