@@ -13,21 +13,19 @@ function run()
         $maxInit = 100;
         $minStep = 1;
         $maxStep = 100;
-        $countElements = 10;
-        $member = rand($minInit, $maxInit);
+        $lenght = 10;
+        $firstMember = rand($minInit, $maxInit);
         $step = rand($minStep, $maxStep);
-        $questid = rand(0, $countElements - 1);
-        $array = [];
-        for ($i = 0; $i < $countElements; $i++) {
-            $array[$i] = $member;
+        $questionIndex = rand(0, $lenght - 1);
+        $progression = [];
+        $member = $firstMember;
+        for ($i = 0; $i < $lenght; $i++) {
+            $progression[$i] = $member;
             $member += $step;
         }
-        $correctAnswer = $array[$questid];
-        $array[$questid] = "..";
-        $question = ("{$array[0]}");
-        for ($i = 1; $i < $countElements; $i++) {
-            $question = ("{$question}  {$array[$i]}");
-        }
+        $correctAnswer = $progression[$questionIndex];
+        $progression[$questionIndex] = "..";
+        $question = implode(' ', $progression);
         return [$correctAnswer, $question];
     });
 }
