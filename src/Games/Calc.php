@@ -13,14 +13,12 @@ function run()
         $maxGen = 100;
         $a = rand($minGen, $maxGen);
         $b = rand($minGen, $maxGen);
-        $firstid = 0;
-        $lastid = 2;
-        $operationid = rand($firstid, $lastid);
         $operations = [
             ['operand' => '+', 'correctAnswer' => $a + $b],
             ['operand' => '-', 'correctAnswer' => $a - $b],
             ['operand' => '*', 'correctAnswer' => $a * $b]
         ];
+        $operationid = rand(0, count($operations));
         $correctAnswer = (string)$operations[$operationid]['correctAnswer'];
         $question = "{$a} {$operations[$operationid]['operand']} {$b}";
         return [$correctAnswer, $question];
