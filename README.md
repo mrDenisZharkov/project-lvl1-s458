@@ -4,15 +4,15 @@
 
 Simple but exciting online games. Please, enjoy!
 
-## Guide to install brain-games:
-[![asciicast](https://asciinema.org/a/4Qq5SXyvDxHkWtFSaY5cPw9WV.svg)](https://asciinema.org/a/4Qq5SXyvDxHkWtFSaY5cPw9WV)
-## Guide to launch game selection menu:
-[![asciicast](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR.svg)](https://asciinema.org/a/VRD0YfRgN7GrxQW5nbpz6VCAR)
+## Guide to install brain games:
+[![asciicast](https://asciinema.org/a/WDOY1SAYENXDfobTuI1kzfJyu.svg)](https://asciinema.org/a/WDOY1SAYENXDfobTuI1kzfJyu)
 ## Guide to launch Even game:
-[![asciicast](https://asciinema.org/a/lYoG6qgeROPtlylhWgKhHxj90.svg)](https://asciinema.org/a/lYoG6qgeROPtlylhWgKhHxj90)
+[![asciicast](https://asciinema.org/a/ZeEtiBdg5xn3RWojmh3Y81YSV.svg)](https://asciinema.org/a/ZeEtiBdg5xn3RWojmh3Y81YSV)
 ## Guide to launch Calc game:
-[![asciicast](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG.svg)](https://asciinema.org/a/xLuuwXcFRQJMARnvnHTYsFvnG)
+[![asciicast](https://asciinema.org/a/zd4eau0VsqZ0WZfC8Lc40wbQR.svg)](https://asciinema.org/a/zd4eau0VsqZ0WZfC8Lc40wbQR)
 ## Guide to launch GCD game:
-[![asciicast](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK.svg)](https://asciinema.org/a/Y4RDpVF09XzSATJogovHrP7OK)
+[![asciicast](https://asciinema.org/a/GVAwWS5f2GGbjAdTLu4G5pLfn.svg)](https://asciinema.org/a/GVAwWS5f2GGbjAdTLu4G5pLfn)
 ## Guide to launch Progression game:
-[![asciicast](https://asciinema.org/a/95rrnrPVcfEwO29dUM8bt1hHD.svg)](https://asciinema.org/a/95rrnrPVcfEwO29dUM8bt1hHD)
+[![asciicast](https://asciinema.org/a/vu9NFRY01CVwoMbthhHg1LHBI.svg)](https://asciinema.org/a/vu9NFRY01CVwoMbthhHg1LHBI)
+## Guide to launch Prime game:
+[![asciicast](https://asciinema.org/a/2SttYmkMRzcOltpBod6TlSg9D.svg)](https://asciinema.org/a/2SttYmkMRzcOltpBod6TlSg9D)
