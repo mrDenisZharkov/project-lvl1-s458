@@ -17,42 +17,42 @@ composer global require zharkov-denis/brain-games
 ```
 [![asciicast](https://asciinema.org/a/WDOY1SAYENXDfobTuI1kzfJyu.svg)](https://asciinema.org/a/WDOY1SAYENXDfobTuI1kzfJyu)
 
-## Guide to launch brain games menu:
+## How to launch brain games menu:
 After successfull installation:
 ```
 brain-games
 ```
 [![asciicast](https://asciinema.org/a/0QnaIa3IVf4CLVGGuEs9O8IZg.svg)](https://asciinema.org/a/0QnaIa3IVf4CLVGGuEs9O8IZg)
 
-## Guide to launch Even game:
+## How to launch Even game:
 After successfull installation:
 ```
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/ZeEtiBdg5xn3RWojmh3Y81YSV.svg)](https://asciinema.org/a/ZeEtiBdg5xn3RWojmh3Y81YSV)
 
-## Guide to launch Calc game:
+## How to launch Calc game:
 After successfull installation:
 ```
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/zd4eau0VsqZ0WZfC8Lc40wbQR.svg)](https://asciinema.org/a/zd4eau0VsqZ0WZfC8Lc40wbQR)
 
-## Guide to launch GCD game:
+## How to launch GCD game:
 After successfull installation:
 ```
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/GVAwWS5f2GGbjAdTLu4G5pLfn.svg)](https://asciinema.org/a/GVAwWS5f2GGbjAdTLu4G5pLfn)
 
-## Guide to launch Progression game:
+## How to launch Progression game:
 After successfull installation:
 ```
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/vu9NFRY01CVwoMbthhHg1LHBI.svg)](https://asciinema.org/a/vu9NFRY01CVwoMbthhHg1LHBI)
 
-## Guide to launch Prime game:
+## How to launch Prime game:
 After successfull installation:
 ```
 brain-prime
