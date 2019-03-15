@@ -8,12 +8,7 @@ const DESCRIPTION = "Find the greatest common divisor of given numbers.";
 
 function getGCD($a, $b)
 {
-    $answer = 1;
-    $lowerNum = ($a <= $b) ? $a : $b;
-    for ($i = 1; $i <= $lowerNum; $i++) {
-        $answer = ($a % $i || $b % $i) ? $answer : $i;
-    }
-    return $answer;
+    return $b === 0 ? abs($a) : getGCD($b, $a % $b);
 }
 function run()
 {
