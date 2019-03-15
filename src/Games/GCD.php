@@ -4,7 +4,7 @@ namespace BrainGames\Games\GCD;
 use function BrainGames\Engine\play;
 
 const TITLE = "Brain GCD Game";
-const DESCRIPTION = "Find the greatest common divisor of given numbers.";
+const DESCRIPTION = "Find the greatest common divisor of given numbers";
 
 function getGCD($a, $b)
 {

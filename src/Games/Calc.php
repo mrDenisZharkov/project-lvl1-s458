@@ -14,18 +14,18 @@ function run()
         $a = rand($minGen, $maxGen);
         $b = rand($minGen, $maxGen);
         $operations = [
-            ['operand' => '+', 'correctAnswer' => function ($a, $b) {
+            ['operand' => '+', 'getAnswer' => function ($a, $b) {
                 return $a + $b;
             }],
-            ['operand' => '-', 'correctAnswer' => function ($a, $b) {
+            ['operand' => '-', 'getAnswer' => function ($a, $b) {
                 return $a - $b;
             }],
-            ['operand' => '*', 'correctAnswer' => function ($a, $b) {
+            ['operand' => '*', 'getAnswer' => function ($a, $b) {
                 return $a * $b;
             }]
         ];
         $operationid = rand(0, count($operations) - 1);
-        $correctAnswer = $operations[$operationid]['correctAnswer']($a, $b);
+        $correctAnswer = $operations[$operationid]['getAnswer']($a, $b);
         $question = "{$a} {$operations[$operationid]['operand']} {$b}";
         return [$correctAnswer, $question];
     });

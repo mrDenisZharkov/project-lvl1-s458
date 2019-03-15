@@ -5,7 +5,7 @@ use function \cli\line;
 use function \cli\prompt;
 const COUNT_ROUNDS = 3;
 
-function play(string $title, string $rule, callable $set)
+function play(string $title, string $rule, callable $genAnswer)
 {
     line("\n\t*Welcome to the {$title}!*");
     line("\n{$rule}");
@@ -13,9 +13,9 @@ function play(string $title, string $rule, callable $set)
     line("\tHello, {$username}!");
     for ($i = 0; $i < COUNT_ROUNDS; $i++) {
         line("\nQuestion: ");
-        [$correctAnswer, $question] = $set();
-        print_r($question);
-        $playerAnswer = prompt("\nYour answer: ");
+        [$correctAnswer, $question] = $genAnswer();
+        line($question);
+        $playerAnswer = prompt("\nYour answer");
         if ($playerAnswer == $correctAnswer) {
             line("Correct!");
         } else {
