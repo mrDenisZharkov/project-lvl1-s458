@@ -16,15 +16,12 @@ function run()
         $lenght = 10;
         $firstMember = rand($minInit, $maxInit);
         $step = rand($minStep, $maxStep);
-        $questionIndex = rand(0, $lenght - 1);
-        $progression = [];
-        $member = $firstMember;
+        $hiddenElementIndex = rand(0, $lenght - 1);
         for ($i = 0; $i < $lenght; $i++) {
-            $progression[$i] = $member;
-            $member += $step;
+            $progression[$i] = $firstMember + $step * $i;
         }
-        $correctAnswer = $progression[$questionIndex];
-        $progression[$questionIndex] = "..";
+        $correctAnswer = $progression[$hiddenElementIndex];
+        $progression[$hiddenElementIndex] = "..";
         $question = implode(' ', $progression);
         return [$correctAnswer, $question];
     });
