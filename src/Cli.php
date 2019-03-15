@@ -35,6 +35,6 @@ function runMenu()
     line("any other - EXIT");
     $selection = prompt("\nEnter number of game to run it");
     $bye = "\nHave a good day!\n\n";
-    $commandStart = ($selection > 0 && $selection <= count($games)) ? $games[$userCommand - 1]['call']() : exit($bye);
+    $commandStart = ($selection > 0 && $selection <= count($games)) ? $games[$selection - 1]['call']() : exit($bye);
     return;
 }
