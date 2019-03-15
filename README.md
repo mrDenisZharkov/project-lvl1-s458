@@ -1,4 +1,4 @@
-# project-lvl1-s458
+# Brain Games
 [![Maintainability](https://api.codeclimate.com/v1/badges/17197ebb1fd1d104e064/maintainability)](https://codeclimate.com/github/mrDenisZharkov/project-lvl1-s458/maintainability)
 [![Build Status](https://travis-ci.org/mrDenisZharkov/project-lvl1-s458.svg?branch=master)](https://travis-ci.org/mrDenisZharkov/project-lvl1-s458)
 ## Description:
