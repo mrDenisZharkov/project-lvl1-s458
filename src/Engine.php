@@ -16,7 +16,7 @@ function play(string $title, string $description, callable $genData)
         [$correctAnswer, $question] = $genData();
         line($question);
         $playerAnswer = prompt("\nYour answer");
-        if ($playerAnswer == $correctAnswer) {
+        if ($playerAnswer === $correctAnswer) {
             line("Correct!");
         } else {
             line("'{$playerAnswer}' is wrong answer. Correct answer was '{$correctAnswer}'.");

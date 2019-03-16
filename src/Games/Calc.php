@@ -5,15 +5,12 @@ use function BrainGames\Engine\play;
 
 const TITLE = "Brain Calc Game";
 const DESCRIPTION = "What is the result of the expression?";
+const MIN_GEN = 1;
+const MAX_GEN = 100;
 
 function run()
 {
-    play(TITLE, DESCRIPTION, function () {
-        $minGen = 1;
-        $maxGen = 100;
-        $a = rand($minGen, $maxGen);
-        $b = rand($minGen, $maxGen);
-        $operations = [
+    $operations = [
             ['operand' => '+', 'getAnswer' => function ($a, $b) {
                 return $a + $b;
             }],
@@ -24,9 +21,13 @@ function run()
                 return $a * $b;
             }]
         ];
+    $gameData = function () use ($operations) {
+        $a = rand(MIN_GEN, MAX_GEN);
+        $b = rand(MIN_GEN, MAX_GEN);
         $operationid = rand(0, count($operations) - 1);
-        $correctAnswer = $operations[$operationid]['getAnswer']($a, $b);
+        $correctAnswer = (string)$operations[$operationid]['getAnswer']($a, $b);
         $question = "{$a} {$operations[$operationid]['operand']} {$b}";
         return [$correctAnswer, $question];
-    });
+    };
+    play(TITLE, DESCRIPTION, $gameData);
 }

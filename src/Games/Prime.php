@@ -5,6 +5,8 @@ use function BrainGames\Engine\play;
 
 const TITLE = "Brain Prime Game";
 const DESCRIPTION = "Answer 'yes' if given number is prime. Otherwise answer 'no'";
+const MIN_GEN = 1;
+const MAX_GEN = 100;
 
 function isPrime($a)
 {
@@ -20,11 +22,12 @@ function isPrime($a)
 }
 function run()
 {
-    play(TITLE, DESCRIPTION, function () {
+    $gameData = function () {
         $minInit = 1;
         $maxInit = 100;
-        $question = rand($minInit, $maxInit);
+        $question = (string)rand(MIN_GEN, MAX_GEN);
         $correctAnswer = isPrime($question) ? "yes" : "no";
         return [$correctAnswer, $question];
-    });
+    };
+    play(TITLE, DESCRIPTION, $gameData);
 }

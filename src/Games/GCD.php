@@ -5,6 +5,8 @@ use function BrainGames\Engine\play;
 
 const TITLE = "Brain GCD Game";
 const DESCRIPTION = "Find the greatest common divisor of given numbers";
+const MIN_GEN = 1;
+const MAX_GEN = 100;
 
 function getGCD($a, $b)
 {
@@ -12,13 +14,12 @@ function getGCD($a, $b)
 }
 function run()
 {
-    play(TITLE, DESCRIPTION, function () {
-        $minGen = 1;
-        $maxGen = 100;
-        $a = rand($minGen, $maxGen);
-        $b = rand($minGen, $maxGen);
+    $gameData = function () {
+        $a = rand(MIN_GEN, MAX_GEN);
+        $b = rand(MIN_GEN, MAX_GEN);
         $question = ("{$a} <==> {$b}");
-        $correctAnswer = getGCD($a, $b);
+        $correctAnswer = (string)getGCD($a, $b);
         return [$correctAnswer, $question];
-    });
+    };
+    play(TITLE, DESCRIPTION, $gameData);
 }
