@@ -25,7 +25,7 @@ function run()
     $gameData = function () {
         $minInit = 1;
         $maxInit = 100;
-        $question = (string)rand(MIN_GEN, MAX_GEN);
+        $question = (string) rand(MIN_GEN, MAX_GEN);
         $correctAnswer = isPrime($question) ? "yes" : "no";
         return [$correctAnswer, $question];
     };

@@ -25,7 +25,7 @@ function run()
         $a = rand(MIN_GEN, MAX_GEN);
         $b = rand(MIN_GEN, MAX_GEN);
         $operationid = rand(0, count($operations) - 1);
-        $correctAnswer = (string)$operations[$operationid]['getAnswer']($a, $b);
+        $correctAnswer = (string) $operations[$operationid]['getAnswer']($a, $b);
         $question = "{$a} {$operations[$operationid]['operand']} {$b}";
         return [$correctAnswer, $question];
     };

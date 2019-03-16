@@ -15,7 +15,7 @@ function isEven($number)
 function run()
 {
     $gameData = function () {
-        $question = (string)rand(MIN_GEN, MAX_GEN);
+        $question = (string) rand(MIN_GEN, MAX_GEN);
         $correctAnswer = isEven($question) ? "yes" : "no";
         return [$correctAnswer, $question];
     };

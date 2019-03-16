@@ -19,7 +19,7 @@ function run()
         for ($i = 0; $i < PROGRESSION_SIZE; $i++) {
             $progression[$i] = $firstMember + $step * $i;
         }
-        $correctAnswer = (string)$progression[$hiddenElementIndex];
+        $correctAnswer = (string) $progression[$hiddenElementIndex];
         $progression[$hiddenElementIndex] = "..";
         $question = implode(' ', $progression);
         return [$correctAnswer, $question];

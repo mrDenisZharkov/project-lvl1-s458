@@ -18,7 +18,7 @@ function run()
         $a = rand(MIN_GEN, MAX_GEN);
         $b = rand(MIN_GEN, MAX_GEN);
         $question = ("{$a} <==> {$b}");
-        $correctAnswer = (string)getGCD($a, $b);
+        $correctAnswer = (string) getGCD($a, $b);
         return [$correctAnswer, $question];
     };
     play(TITLE, DESCRIPTION, $gameData);
